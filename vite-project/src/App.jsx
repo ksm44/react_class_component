@@ -1,6 +1,6 @@
-import ShopItemFunc from './components/ShopItemFunc'
-import '../../components/store-func/img/item-black.jpg'
-import '../../components/store-func/img/item-blue.jpg'
+import ShopItemClass from './components/ShopItemClass'
+import '../../components/store-class/i/item-black.jpg'
+import '../../components/store-class/i/item-blue.jpg'
 
 
 function App() {
@@ -22,7 +22,7 @@ return (
       <div className='highlight-overlay'></div>
     </div>
     <div className="window">
-      <ShopItemFunc item={item} />
+      <ShopItemClass item={item} />
     </div>
   </div>
 )
